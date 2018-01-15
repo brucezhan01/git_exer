@@ -1,0 +1,53 @@
+fg
+cd workspace/
+ls
+mkdir git_exer
+cd git_exer/
+git init
+git add S`
+git commit -m "create S1"
+cp S1 S2
+git commit -am "create S2"
+git commit -am "create S2" S2
+git add S2
+git commit -m "create S2"
+resource
+git log
+git branch SDN
+git branch auth
+git checkout SDN
+git add S1 ; git commit -m "SDN for S1"
+git checkout auth
+git_hsi
+git commit -a -m "auth for S1"
+git diff master..SDN
+git diff SDN..master
+git merge SDN
+cat S1
+vi ~/.cshrc
+echo $LM_LICENSE_FILE
+git branch -d SDN
+git branch -a
+git merge auth
+git commit -m "merge branch 'auth'"
+git branch --merged
+git branch -d auth
+git checkout -b dev
+git branch
+vi s1
+vi S!
+git commit -a -m "update S1 dev"
+clean
+git commit -a -m "update S1 master"
+githist
+git checkout dev
+git checkout master
+git merge --abort
+git merge dev
+git diff
+vi S1
+git add S1
+git status
+git commit
+git branch -d dev
+git_hist
